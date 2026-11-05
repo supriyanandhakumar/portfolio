@@ -61,7 +61,7 @@ export const Leadership: React.FC = () => {
                   {/* Top Banner with Image and Overlay */}
                   <div className="relative h-48 sm:h-52 overflow-hidden border-b border-slate-200 dark:border-white/10">
                     <img
-                      src={role.image || "/src/assets/images/toastmasters_public_speaking_1793370676806.jpg"}
+                      src={role.image || "/assets/images/toastmasters_public_speaking_1793370676806.jpg"}
                       alt={role.title}
                       referrerPolicy="no-referrer"
                       className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-700"
